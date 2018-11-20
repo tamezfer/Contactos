@@ -1,0 +1,41 @@
+<!--
+  Generated template for the MostrarPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{nombre}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding style="background-color:crimson">
+    <ion-card>
+        <img [src]= "avatar">
+    </ion-card>
+
+    <ion-card>
+      <ion-icon name="mail"> {{correo}} </ion-icon>
+    </ion-card>
+
+    <ion-card>
+      <ion-icon name="logo-whatsapp"> {{num}} </ion-icon>
+    </ion-card>
+
+    <ion-card>
+        <ion-icon name="logo-facebook"> {{facebook}} </ion-icon>
+      </ion-card>
+
+      <ion-card>
+          <ion-icon name="logo-twitter"> {{twitter}} </ion-icon>
+      </ion-card>
+
+      <ion-card>
+          <ion-icon name="logo-instagram"> {{instagram}} </ion-icon>
+      </ion-card>
+
+</ion-content>
